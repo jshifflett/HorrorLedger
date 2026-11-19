@@ -33,7 +33,7 @@ body {
 
 .paper {
     position: relative;
-    max-width: 1180px;
+    max-width: 1480px;
     margin: 0 auto;
     padding: clamp(1rem, 3vw, 2.25rem);
     border: 1px solid #c2b189;
@@ -287,6 +287,13 @@ article p + p {
 
 .bulletin p {
     text-align: justify;
+}
+
+.photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
 }
 
 /* ---------- Advertisements ---------- */
